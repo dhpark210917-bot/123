@@ -1,0 +1,55 @@
+/* Layout Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+/* Main Header */
+.main-header {}
+
+.main-header h1 {}
+
+.main-header p {}
+
+/* Portfolio Layout */
+.portfolio-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {}
+
+.sidebar h2 {}
+
+
+.sidebar a {}
+
+.sidebar a:hover {}
+
+.content-area {}
+
+.iframe-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #cbd5e1;
+    background-color: #ffffff;
+}
+
+iframe {
+    width: 100%
+}
+
+/* Main Footer */
+.main-footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+    border-top: 1px solid #1e293b;
+}
